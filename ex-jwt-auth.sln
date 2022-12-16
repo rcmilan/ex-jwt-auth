@@ -5,6 +5,8 @@ VisualStudioVersion = 17.4.33205.214
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{F2A71F9B-5D33-465A-A702-920D77279786}") = "MyRSAKeyGen", "MyRSAKeyGen\MyRSAKeyGen.fsproj", "{2375791A-3B07-4F3E-A6A0-BCC5667B6AAD}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MyServerApi", "MyServerApi\MyServerApi.csproj", "{597D8BDB-B008-4FD9-BD8B-40FE7C1063BB}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,6 +17,10 @@ Global
 		{2375791A-3B07-4F3E-A6A0-BCC5667B6AAD}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{2375791A-3B07-4F3E-A6A0-BCC5667B6AAD}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{2375791A-3B07-4F3E-A6A0-BCC5667B6AAD}.Release|Any CPU.Build.0 = Release|Any CPU
+		{597D8BDB-B008-4FD9-BD8B-40FE7C1063BB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{597D8BDB-B008-4FD9-BD8B-40FE7C1063BB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{597D8BDB-B008-4FD9-BD8B-40FE7C1063BB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{597D8BDB-B008-4FD9-BD8B-40FE7C1063BB}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
