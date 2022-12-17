@@ -23,6 +23,7 @@ builder.Services.AddAuthentication("jwt")
         {
             OnMessageReceived = (MessageReceivedContext ctx) =>
             {
+                // espera o JWT como query param
                 if (ctx.Request.Query.ContainsKey("t"))
                 {
                     ctx.Token = ctx.Request.Query["t"];
